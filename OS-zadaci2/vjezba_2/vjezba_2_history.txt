@@ -1,0 +1,62 @@
+ 1887  cd OS-zadaci2
+ 1888  mkdir -p vjezba_2/data && mkdir vjezba2/backup
+ 1889  man mkdir
+ 1890  tree vjezba_2/
+ 1891  mkdir vjezba2/backup
+ 1892  rmdir -r vjezba_2/
+ 1893  rmdir -p vjezba_2/
+ 1894  rm -r vjezba_2/
+ 1895  ls
+ 1896  mkdir -p vjezba_2/data && mkdir vjezba_2/backup
+ 1897  cd vjezba_2/
+ 1898  cd data
+ 1899  touch script.js
+ 1900  touch style.css
+ 1901  touch .env
+ 1902  echo 'console.log("Hello, World!")' >> script.js 
+ 1903  echo 'body { background-color: #f0f0f0; }' >> style.css
+ 1904  echo 'VJEZBE=OS' >> .env
+ 1905  cat script.js 
+ 1906  cat style.css 
+ 1907  cat .env
+ 1908  git status
+ 1909  git add -A
+ 1910  git status
+ 1911  git commit -m "Riješen zadatak 2"
+ 1912  git push origin main
+ 1913  cd ..
+ 1914  cp data/. backup/
+ 1915  ls -a  backup/
+ 1916  cp data/script.js data/style.css data/.env backup/
+ 1917  cd data/
+ 1918  ls -las ../backup/
+ 1919  ls -laS ../backup/
+ 1920  git status
+ 1921  git add -A
+ 1922  git commit -m "Riješen zadatak 3"
+ 1923  git push origin main
+ 1924  ls
+ 1925  ls -a
+ 1926  rm -iv script.js style.css 
+ 1927  cp ../backup/* ./
+ 1928  cp -nv ../backup/.env ./
+ 1929  cp -v --update=none ../backup/.env ./
+ 1930  ls -al
+ 1931  ls -t1A
+ 1932  ls -lt1A
+ 1933  tree
+ 1934  tree -A
+ 1935  tree -a
+ 1936  git status
+ 1937  git add -A
+ 1938  git commit -m "Riješen zadatak 4"
+ 1939  git push origin main
+ 1940  cd ..
+ 1941  ls
+ 1942  tree programiranje
+ 1943  cd programiranje
+ 1944  ls -laS
+ 1945  ls -lSh
+ 1946  tree -a
+ 1947  cd ../os_vjezbe/OS-zadaci2/vjezba_2/
+ 1948  history > vjezba_2_history.txt
