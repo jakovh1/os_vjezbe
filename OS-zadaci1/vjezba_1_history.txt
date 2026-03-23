@@ -1,0 +1,79 @@
+ 1623  mkdir vjezba1 && cd vjezba1
+ 1624  touch README.md
+ 1625  cd ..
+ 1626  mkdir vjezba2 && touch vjezba2/file.txt
+ 1627  cp vjezba2/file.txt vjezba2/file_copy.txt
+ 1628  ls vjezba2
+ 1629  rm vjezba2/file.txt
+ 1630  rm vjezba2
+ 1631  mkdir vjezba3 && mkdir vjezba3/backup
+ 1632  rm -rf vjezba3
+ 1633  ls
+ 1634  mkdir vjezba3 && mkdir vjezba3/backup
+ 1635  cd vjezba3
+ 1636  touch notes.txt todo.txt script.sh
+ 1637  cp ./* backup/
+ 1638  cp -r ./* backup/
+ 1639  ls
+ 1640  cp notes.txt script.sh todo.txt backup/
+ 1641  rm script.sh
+ 1642  ls
+ 1643  mkdir backup/$USER
+ 1644  ls backup/
+ 1645  mv -r backup/* $USER/
+ 1646  mv backup/* $USER/
+ 1647  ls backup/backup/
+ 1648  rm -rf backup/backup/
+ 1649  ls backup/
+ 1650  cd backup/
+ 1651  mv notes.txt  script.sh todo.txt jakov/
+ 1652  ls jakov/
+ 1653  ls
+ 1654  cd ..
+ 1655  mkdir vjezba4 && mkdir vjezba4/subfolder
+ 1656  touch vjezba4/$HOSTNAME
+ 1657  cd vjezba4
+ 1658  ls
+ 1659  mv $HOSTNAME $USER
+ 1660  ls
+ 1661  mv $USER subfolder/
+ 1662  pwd
+ 1663  rm "$PWD/$USER"
+ 1664  rm "$PWD/subfolder/$USER"
+ 1665  ls subfolder/
+ 1666  cd ..
+ 1667  mv os os_vjezbe
+ 1668  mv os_vjezbe OS-zadaci1
+ 1669  ls
+ 1670  git clone git@github.com:jakovh1/os_vjezbe.git
+ 1671  mv OS-zadaci1/ os_vjezbe/
+ 1672  ls
+ 1673  cd os_vjezbe/
+ 1674  code .
+ 1675  git status
+ 1676  git add -A
+ 1677  git commit -m "Zadaci za vjezbu 1"
+ 1678  got push origin main
+ 1679  git push origin main
+ 1680  ls
+ 1681  cd OS-zadaci1/
+ 1682  code .
+ 1683  ls
+ 1684  mkdir vjezba5 && cd vjezba5 && touch $RANDOM.num
+ 1685  ls
+ 1686  cp 25654.num backup.num
+ 1687  ls
+ 1688  mkdir backup
+ 1689  mv backup.num backup/
+ 1690  ls
+ 1691  ls backup/
+ 1692  cd ..
+ 1693  pwd
+ 1694  mkdir /home/jakov/Documents/vjezba6
+ 1695  touch /home/jakov/Documents/vjezba6/OS_script.md /home/jakov/Documents/vjezba6/notes.txt && mkdir /home/jakov/Documents/vjezba6/scripts
+ 1696  mv /home/jakov/Documents/vjezba6/OS_script.md /home/jakov/Documents/vjezba6/scripts/
+ 1697  mv /home/jakov/Documents/vjezba6/notes.txt /home/jakov/Documents/vjezba6/todo.txt
+ 1698  cd /home/jakov/Documents/vjezba6/scripts/
+ 1699  ls
+ 1700  ls ../
+ 1701  rm ../todo.txt
